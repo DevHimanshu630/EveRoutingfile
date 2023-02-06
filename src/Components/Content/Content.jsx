@@ -3,6 +3,8 @@ import Footer from '../Footer/Footer'
 import Header from '../Header/Header'
 import styles from "./content.module.css"
 import food from "../Images/food.png"
+import { Link } from 'react-router-dom'
+
 export default function Content() {
     const [btn,setbtn]=useState(false)
     const handlecontent=()=>{
@@ -20,15 +22,14 @@ export default function Content() {
                 <div className="down">
                     <div className="down-list">
                         <ul className="list2 abc">
-                            <li >Displays</li>
+                            <li ><Link to='/'style={{textDecoration:"none" ,color:"#7E7E7E"}}> Displays</Link></li>
                             <li className="display">My Content</li>
-                            <li>Playlists</li>
+                            <li><Link to='/playlist' style={{textDecoration:"none" ,color:"#7E7E7E"}}>Playlists</Link></li>
                         </ul>
                     </div>
                 </div>
                 {/* <div className="bannerContainer"> */}
                 <div className={styles.bannerContainer}>
-
                     <div className={styles.display_dash}>
                         <div className={styles.spanContainercont}>
                             <span>Display Dashboard</span>

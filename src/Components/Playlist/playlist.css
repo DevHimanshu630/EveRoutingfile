@@ -261,3 +261,112 @@ cursor: pointer;
 text-transform: uppercase;
 color: #7E7E7E;
 }
+
+/* popup css start */
+
+.popup{
+    position: absolute;
+    z-index: 9999;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.flex {
+    display: flex;
+
+}
+.maincontainer {
+    margin: auto;
+    justify-content: center;
+    
+}
+.contentcontainer {
+    width: 796px;
+    height: 370px;
+    margin-top: 20px;
+    background: #FFFFFF;
+    border: 1px solid #F7F7F7;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(50px);
+    border-radius: 5px;
+
+}
+.mainheadingcontent {
+    width: 796px;
+    height: 116px;
+    left: 358px;
+    top: 212px;
+    background: #340C42;
+    border-bottom: 1px solid #C9C9C9;
+    align-items: center;
+}
+
+.mainheadingcontent-para {
+    width: 287px;
+    height: 29px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-left: 88px;
+}
+
+.playlist-para{
+    width: 610px;
+    height: 32px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 32px;
+    color: #7E7E7E;
+    margin: auto;
+    margin-top: 20px;
+}
+.playlist-text{
+width: 630px;
+height: 48px;
+margin: auto;
+display:flex ;
+justify-content:center ;
+border: 1px solid #C9C9C9;
+outline: none;
+margin-top: 20px;
+position: relative;
+left: 10px;
+padding: 10px;
+}
+.btncontainer {
+    position: relative;
+    top: 60px;
+    left: 91px;
+    gap: 20px;
+}
+
+.addbtn {
+    width: 130px;
+    height: 40px;
+    background: #340C42;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.cancelbtn {
+    background-color: white;
+    width: 150px;
+    font-weight: 400;
+    border-radius: 5px;
+    border: 1px solid #B0B0B0;
+    outline: none;
+    font-size: 16px;
+    line-height: 32px;
+    color: #B0B0B0;
+    cursor: pointer;
+
+}
+
+/* popup css end */

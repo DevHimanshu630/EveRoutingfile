@@ -1,11 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./playlist.css"
 import food1 from "../Images/food1.png"
 import vector from "../Images/Vector.png"
-import logo from "../Images/everydoor.png"
 import Header from '../Header/Header'
 import Footer from '../Footer/Footer'
+import { Link } from 'react-router-dom'
 export default function Playlist() {
+    const [btn,setbtn]=useState(false)
+    const handleplaylist=()=>{
+        setbtn(!btn);
+    }
   return (
     <div>
          <main>
@@ -14,8 +18,8 @@ export default function Playlist() {
             <div class="down">
                 <div class="down-list">
                     <ul class="list2 abc">
-                        <li>Displays</li>
-                        <li>My Content</li>
+                        <li><Link to='/' style={{textDecoration:"none" ,color:"#7E7E7E"}}>Displays</Link></li>
+                        <li><Link to='/content' style={{textDecoration:"none" ,color:"#7E7E7E"}}>My Content</Link></li>
                         <li class="display">Playlists</li>
                     </ul>
                 </div>
@@ -27,11 +31,29 @@ export default function Playlist() {
                         <span class="span-content">My Playlists</span>
                     </div>
                     <div class="button-cont">
-                        <button class="btndisplay blue">+ ADD A PLAYLIST</button>
+                        <button class="btndisplay blue" onClick={handleplaylist}>+ ADD A PLAYLIST</button>
                     </div>
 
                 </div>
 
+                {/* playlist popup start */}
+
+                <div className="popup" style={{display:btn?"flex":"none"}}>
+                    <div className="contentcontainer">
+                        <div className="mainheadingcontent flex">
+                            <p className="mainheadingcontent-para flex">Add a display</p>
+                        </div>
+                        <p className="playlist-para">Create playlists, change order and duration of items, add triggers and widgets to your playlists</p>
+                        <input type="text" class="playlist-text" placeholder="Enter playlist name"/>
+                        <div className="btncontainer flex">
+                            <button className="addbtn" id="Addbtn">Add</button>
+                            <button className="cancelbtn" onClick={handleplaylist}>Cancel</button>
+                        </div>
+                    </div>
+                </div>
+
+                    
+                {/* playlist popup coding end */}
 
                 <div class="productcontainer">
                     <div class="cardcontainer abc">
