@@ -3,6 +3,8 @@ import Header from '../Header/Header'
 import Footer from '../Footer/Footer'
 import "./dashboard.css"
 import uploadimg from '../Images/uploadImg.png'
+import uploadvdo from '../Images/uploadvdo.png'
+import uploadmedia from '../Images/uploadmedia.png'
 export default function Advertisedashboard() {
   return (
     <div>
@@ -22,14 +24,14 @@ export default function Advertisedashboard() {
           <div className='imgvdocontainer'>
             <div className="addimg">
               <img src={uploadimg} alt="" />
-              <p>Add Image</p>
+              <p>Add Image</p>  
             </div>
             <div className="addimg">
-              <img src={uploadimg} alt="" />
+              <img src={uploadvdo} alt="" />
               <p>Add Video</p>
             </div>
             <div className="addimg">
-              <img src={uploadimg} alt="" />
+              <img src={uploadmedia} alt="" />
               <p>Add Media Library</p>
             </div>
             <div className="addimg" style={{marginTop:"50px",background: "#FDFDFD"}}>
