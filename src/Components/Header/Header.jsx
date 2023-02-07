@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from "../Images/everydoor.png"
 import "./header.css"
-export default function Header() {
+export default function Header(props) {
   return (
     <div>
         <div class="header abc">

@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.campaignheading{
+    width: 241px;
+height: 29px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+color: #111727;
+margin-left:290px ;
+
+}
+.campaigninputcontainer{
+    width: 832px;
+    height: 104px;
+    background: #F7F7F7;
+    border: 1px solid #B0B0B0;
+    border-radius: 5px;
+    margin-left: 290px;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.campaigninputcontainer-heading{
+width: 173px;
+height: 24px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #7E7E7E;
+}
+.campaigninputcontainer-heading{
+    margin-left: 20px;
+}
+.campaigninput{
+    width: 591px;
+height: 48px;
+margin-left: 10px;
+padding: 0 20px;
+outline: none;
+background: #FFFFFF;
+border: 1px solid #C9C9C9;
+border-radius: 5px;
+}
+.uploadcontainer{
+    margin-top: 50px;
+}
+.uploadcontainer>h1{
+width: 259px;
+height: 29px;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+color: #111727;
+margin-left: 290px;
+
+}
+.imgvdocontainer{
+    display: flex;
+    width: 750px;
+    height: auto;
+    margin-left: 290px;
+    gap: 150px;
+    flex-wrap: wrap;
+}
+.addimg img{
+    margin-top: 31px;
+}
+.addimg p{
+    margin-top: 24px;
+    width: 200px;
+}
+.addimg{
+    width: 113px;
+height: 24px;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #7E7E7E;
+}
+
+.belowcampaign-container{
+    margin-top: 250px;
+    
+}
+.belowcampaign-heading{
+    margin-left: 290px;
+    font-size: 24px;
+line-height: 29px;
+color: #111727;
+}
+.belowcampaign-para{
+    margin-left: 290px;
+    margin-top: 24px;
+    width: 662px;
+height: 24px;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #7E7E7E;
+}
+.tagsContainer{
+    margin-left: 290px;
+    align-items: center;
+    width: 832px;
+height: 104px;
+background: #F7F7F7;
+border: 1px solid #B0B0B0;
+border-radius: 5px;
+margin-top: 50px;
+}
+.tags{
+    width: 47px;
+height: 24px;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #7E7E7E;
+}
+.tags>p{
+    margin-left: 50px;
+}
+select#tagInput{
+    width: 591px;
+    height: 54px;
+    background: #FFFFFF;
+    border: 1px solid #C9C9C9;
+    border-radius: 5px;
+    margin-left: 150px;
+    padding: 15px;
+    outline: none;
+}
+.tagbtnContainer{
+    display: flex;
+    gap: 45px;
+    margin-top: 70px;
+    width: 100%;
+    height: 100px;
+}
+#cancelbtn{
+    width: 196px;
+height: 48px;
+background: #FFFFFF;
+border: 1px solid #F7CD59;
+border-radius: 4px;
+margin-left: 700px;
+font-size: 16px;
+line-height: 20px;
+color: #F7CD59;
+align-items: center;
+
+
+}
+#nextbtn{
+    width: 178px;
+height: 48px;
+background: #F7CD59;
+border-radius: 4px;
+border: none;
+color: white;
+font-size: 16px;
+line-height: 20px;
+}
