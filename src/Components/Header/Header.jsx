@@ -1,7 +1,8 @@
 import React from 'react'
 import logo from "../Images/everydoor.png"
 import "./header.css"
-export default function Header(props) {
+import {Link} from 'react-router-dom'
+export default function Header() {
   return (
     <div>
         <div class="header abc">
@@ -11,8 +12,8 @@ export default function Header(props) {
             </div>
             <div class="left">
                 <ul class="list abc">
-                    <li>Advertiser</li>
-                    <li class="display-provider">Display Provider</li>
+                    <li class="display-provider"><Link to='/advertiser' style={{textDecoration:"none",color:"black"}}> Advertiser</Link></li>
+                    <li class="display-provider"><Link to='/' style={{textDecoration:"none",color:"black"}}> Display Provider</Link></li>
                 </ul>
             </div>
             <div class="center">
@@ -21,7 +22,12 @@ export default function Header(props) {
             <div class="right">
                 <span class="welcomecontent">Welcome</span>
                 <select name="" id="">
-                    <option value="">Jane</option>
+                    <option value="">Jane1</option>
+                    <option value="">Jane1</option>
+                    <option value="">Jane3</option>
+                    <option value="">Jane4</option>
+                    <option value="">Jane5</option>
+                    <option value="">Jane6</option>
                 </select>
             </div>
         </div>

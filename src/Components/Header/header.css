@@ -46,13 +46,22 @@ line-height: 32px;
 .right{
     margin-right: 120px;
 }
-.display-provider{
-    width: 131px;
+.list li {
+    width: max-content;
+    height: 55px;
+    align-items: center;
+    display: flex;
+}
+.display-provider:hover{
+    width: fit-content;
     font-weight: 700;
-font-size: 16px;
-line-height: 32px;
-color: #111727;
+    font-size: 16px;
+    line-height: 32px;
+    color: #111727;
+    transition:0.1s all ;
     border-bottom:2px solid black;
+    text-align: center;
+
 }
 select{
     margin-left: 40px;
@@ -66,14 +75,19 @@ select{
     font-size: 14px;
     line-height: 32px;
     color: #7E7E7E;
+    outline: none;
 }
 
 .welcomecontent{
     color: #7E7E7E;
 }
-.list{
+.list {
     list-style: none;
     gap: 67.5px;
+    width: fit-content;
+    height: 55px;
+    align-items: center;
+    cursor: pointer;
 }
 
 .down{

@@ -8,13 +8,14 @@ import Advertiselogo from './Components/Images/advertiselogo.png'
 function App() {
   return (
     <>
-    {/* <Routes>
+    <Routes>
       <Route path="/" element={ <Dashboard/>}/>
       <Route path="/content" element={ <Content/>}/>
       <Route path="/playlist" element={ <Playlist/>}/>
       <Route path="/managedisplay" element={<Managedisplay/>}/>
-    </Routes> */}
-    <Advertisedashboard/>
+      <Route path="/advertiser" element={<Advertisedashboard/>}/>
+    </Routes>
+    {/* <Advertisedashboard/> */}
     </>
   );
 }
