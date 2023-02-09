@@ -52,7 +52,23 @@ line-height: 32px;
     align-items: center;
     display: flex;
 }
-.display-provider:hover{
+
+    .active{
+        width: fit-content;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 32px;
+        color: #111727;
+        transition:0.1s all ;
+        text-align: center;
+    }
+.textdecor{
+   text-decoration: none;
+   color: black;
+}
+
+
+.list li:hover{
     width: fit-content;
     font-weight: 700;
     font-size: 16px;

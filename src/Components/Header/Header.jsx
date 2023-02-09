@@ -1,26 +1,27 @@
-import React from 'react'
+import React, { useState } from 'react'
 import logo from "../Images/everydoor.png"
 import "./header.css"
-import {Link} from 'react-router-dom'
+import {Link, NavLink} from 'react-router-dom'
 export default function Header() {
+    
   return (
     <div>
-        <div class="header abc">
-        <div class="navbar abc">
-            <div class="logo">
+        <div className="header abc">
+        <div className="navbar abc">
+            <div className="logo">
                 <img src={logo} alt="everydoor_logo"/>
             </div>
-            <div class="left">
-                <ul class="list abc">
-                    <li class="display-provider"><Link to='/advertiser' style={{textDecoration:"none",color:"black"}}> Advertiser</Link></li>
-                    <li class="display-provider"><Link to='/' style={{textDecoration:"none",color:"black"}}> Display Provider</Link></li>
+            <div className="left">
+                <ul className="list abc">
+                    <li><NavLink to='/advertiser'  className="textdecor"> Advertiser</NavLink></li>
+                    <li ><NavLink to='/' className="textdecor"> Display Provider</NavLink></li>
                 </ul>
             </div>
-            <div class="center">
+            <div className="center">
                 <span>INR 17,050.00</span>
             </div>
-            <div class="right">
-                <span class="welcomecontent">Welcome</span>
+            <div className="right">
+                <span className="welcomecontent">Welcome</span>
                 <select name="" id="">
                     <option value="">Jane1</option>
                     <option value="">Jane1</option>
