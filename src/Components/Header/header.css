@@ -1,51 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@400;500;600;700&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
-.abc{
+
+.abc {
     display: flex;
 }
-.header{
+
+.header {
     width: 100%;
     height: 141px;
     /* background-color: red; */
 }
-button{
+
+button {
     cursor: pointer;
 }
-.navbar{
+
+.navbar {
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
+
 }
+
 .logo {
     margin-left: 50px;
     margin-top: 62px;
 }
-.left{
+
+.left {
     /* margin-left: 556px; */
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 32px;
-color: black;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: black;
 }
-.center{
+
+.center {
     color: red;
     width: 125px;
-height: 32px;
-font-weight: 700;
-font-size: 18px;
-line-height: 32px;
+    height: 32px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
 }
-.right{
+
+.right {
     margin-right: 120px;
 }
+
 .list li {
     width: max-content;
     height: 55px;
@@ -53,38 +63,44 @@ line-height: 32px;
     display: flex;
 }
 
-    .active{
-        width: fit-content;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 32px;
-        color: #111727;
-        transition:0.1s all ;
-        text-align: center;
-    }
-.textdecor{
-   text-decoration: none;
-   color: black;
+.active {
+    width: fit-content;
+    font-weight: 700;
+    height: 55px;
+    align-items: center;
+    display: flex;
+    font-size: 16px;
+    line-height: 32px;
+    color: #111727;
+    transition: 0.1s all;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+.textdecor {
+    text-decoration: none;
+    color: black;
 }
 
 
-.list li:hover{
+.list li:hover {
     width: fit-content;
     font-weight: 700;
     font-size: 16px;
     line-height: 32px;
     color: #111727;
-    transition:0.1s all ;
-    border-bottom:2px solid black;
+    transition: 0.1s all;
+    border-bottom: 2px solid black;
     text-align: center;
 
 }
-select{
+
+select {
     margin-left: 40px;
     width: 90px;
     height: 40px;
-    border-radius: 5px ;
-    border: 1px solid #7E7E7E ;
+    border-radius: 5px;
+    border: 1px solid #7E7E7E;
     padding: 5px;
     font-style: normal;
     font-weight: 400;
@@ -94,9 +110,10 @@ select{
     outline: none;
 }
 
-.welcomecontent{
+.welcomecontent {
     color: #7E7E7E;
 }
+
 .list {
     list-style: none;
     gap: 67.5px;
@@ -106,14 +123,16 @@ select{
     cursor: pointer;
 }
 
-.down{
+.down {
     width: 100%;
     height: 54px;
 }
-.down-list{
+
+.down-list {
     margin-left: 169px;
 }
-.display{
+
+.display {
     width: 166px !important;
     height: 54px !important;
     font-weight: 700 !important;
